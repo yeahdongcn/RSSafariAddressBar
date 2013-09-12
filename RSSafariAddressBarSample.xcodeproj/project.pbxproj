@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0C9F19017E1B33600632933 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C9F18F17E1B33600632933 /* Foundation.framework */; };
+		D0C9F19217E1B33600632933 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C9F19117E1B33600632933 /* CoreGraphics.framework */; };
+		D0C9F19417E1B33600632933 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C9F19317E1B33600632933 /* UIKit.framework */; };
+		D0C9F19A17E1B33600632933 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0C9F19817E1B33600632933 /* InfoPlist.strings */; };
+		D0C9F19C17E1B33600632933 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F19B17E1B33600632933 /* main.m */; };
+		D0C9F1A017E1B33600632933 /* RSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F19F17E1B33600632933 /* RSAppDelegate.m */; };
+		D0C9F1A317E1B33600632933 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C9F1A117E1B33600632933 /* Main.storyboard */; };
+		D0C9F1A617E1B33600632933 /* RSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F1A517E1B33600632933 /* RSViewController.m */; };
+		D0C9F1A817E1B33600632933 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C9F1A717E1B33600632933 /* Images.xcassets */; };
+		D0C9F1AF17E1B33600632933 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C9F1AE17E1B33600632933 /* XCTest.framework */; };
+		D0C9F1B017E1B33600632933 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C9F18F17E1B33600632933 /* Foundation.framework */; };
+		D0C9F1B117E1B33600632933 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C9F19317E1B33600632933 /* UIKit.framework */; };
+		D0C9F1B917E1B33600632933 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0C9F1B717E1B33600632933 /* InfoPlist.strings */; };
+		D0C9F1BB17E1B33600632933 /* RSSafariAddressBarSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F1BA17E1B33600632933 /* RSSafariAddressBarSampleTests.m */; };
+		D0C9F1C917E1B3F800632933 /* RSSafariAddressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F1C817E1B3F800632933 /* RSSafariAddressBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0C9F1B217E1B33600632933 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0C9F18417E1B33600632933 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0C9F18B17E1B33600632933;
+			remoteInfo = RSSafariAddressBarSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0C9F18C17E1B33600632933 /* RSSafariAddressBarSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSafariAddressBarSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C9F18F17E1B33600632933 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0C9F19117E1B33600632933 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0C9F19317E1B33600632933 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D0C9F19717E1B33600632933 /* RSSafariAddressBarSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSSafariAddressBarSample-Info.plist"; sourceTree = "<group>"; };
+		D0C9F19917E1B33600632933 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0C9F19B17E1B33600632933 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0C9F19D17E1B33600632933 /* RSSafariAddressBarSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSSafariAddressBarSample-Prefix.pch"; sourceTree = "<group>"; };
+		D0C9F19E17E1B33600632933 /* RSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAppDelegate.h; sourceTree = "<group>"; };
+		D0C9F19F17E1B33600632933 /* RSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAppDelegate.m; sourceTree = "<group>"; };
+		D0C9F1A217E1B33600632933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0C9F1A417E1B33600632933 /* RSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSViewController.h; sourceTree = "<group>"; };
+		D0C9F1A517E1B33600632933 /* RSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSViewController.m; sourceTree = "<group>"; };
+		D0C9F1A717E1B33600632933 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D0C9F1AD17E1B33600632933 /* RSSafariAddressBarSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSSafariAddressBarSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C9F1AE17E1B33600632933 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D0C9F1B617E1B33600632933 /* RSSafariAddressBarSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSSafariAddressBarSampleTests-Info.plist"; sourceTree = "<group>"; };
+		D0C9F1B817E1B33600632933 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0C9F1BA17E1B33600632933 /* RSSafariAddressBarSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSSafariAddressBarSampleTests.m; sourceTree = "<group>"; };
+		D0C9F1C717E1B3F800632933 /* RSSafariAddressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSafariAddressBar.h; sourceTree = "<group>"; };
+		D0C9F1C817E1B3F800632933 /* RSSafariAddressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSafariAddressBar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0C9F18917E1B33600632933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C9F19217E1B33600632933 /* CoreGraphics.framework in Frameworks */,
+				D0C9F19417E1B33600632933 /* UIKit.framework in Frameworks */,
+				D0C9F19017E1B33600632933 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C9F1AA17E1B33600632933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C9F1AF17E1B33600632933 /* XCTest.framework in Frameworks */,
+				D0C9F1B117E1B33600632933 /* UIKit.framework in Frameworks */,
+				D0C9F1B017E1B33600632933 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0C9F18317E1B33600632933 = {
+			isa = PBXGroup;
+			children = (
+				D0C9F19517E1B33600632933 /* RSSafariAddressBarSample */,
+				D0C9F1B417E1B33600632933 /* RSSafariAddressBarSampleTests */,
+				D0C9F18E17E1B33600632933 /* Frameworks */,
+				D0C9F18D17E1B33600632933 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0C9F18D17E1B33600632933 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0C9F18C17E1B33600632933 /* RSSafariAddressBarSample.app */,
+				D0C9F1AD17E1B33600632933 /* RSSafariAddressBarSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0C9F18E17E1B33600632933 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0C9F18F17E1B33600632933 /* Foundation.framework */,
+				D0C9F19117E1B33600632933 /* CoreGraphics.framework */,
+				D0C9F19317E1B33600632933 /* UIKit.framework */,
+				D0C9F1AE17E1B33600632933 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0C9F19517E1B33600632933 /* RSSafariAddressBarSample */ = {
+			isa = PBXGroup;
+			children = (
+				D0C9F1C417E1B39700632933 /* RSSafariAddressBar */,
+				D0C9F19E17E1B33600632933 /* RSAppDelegate.h */,
+				D0C9F19F17E1B33600632933 /* RSAppDelegate.m */,
+				D0C9F1A117E1B33600632933 /* Main.storyboard */,
+				D0C9F1A417E1B33600632933 /* RSViewController.h */,
+				D0C9F1A517E1B33600632933 /* RSViewController.m */,
+				D0C9F1A717E1B33600632933 /* Images.xcassets */,
+				D0C9F19617E1B33600632933 /* Supporting Files */,
+			);
+			path = RSSafariAddressBarSample;
+			sourceTree = "<group>";
+		};
+		D0C9F19617E1B33600632933 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0C9F19717E1B33600632933 /* RSSafariAddressBarSample-Info.plist */,
+				D0C9F19817E1B33600632933 /* InfoPlist.strings */,
+				D0C9F19B17E1B33600632933 /* main.m */,
+				D0C9F19D17E1B33600632933 /* RSSafariAddressBarSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0C9F1B417E1B33600632933 /* RSSafariAddressBarSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0C9F1BA17E1B33600632933 /* RSSafariAddressBarSampleTests.m */,
+				D0C9F1B517E1B33600632933 /* Supporting Files */,
+			);
+			path = RSSafariAddressBarSampleTests;
+			sourceTree = "<group>";
+		};
+		D0C9F1B517E1B33600632933 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0C9F1B617E1B33600632933 /* RSSafariAddressBarSampleTests-Info.plist */,
+				D0C9F1B717E1B33600632933 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0C9F1C417E1B39700632933 /* RSSafariAddressBar */ = {
+			isa = PBXGroup;
+			children = (
+				D0C9F1C717E1B3F800632933 /* RSSafariAddressBar.h */,
+				D0C9F1C817E1B3F800632933 /* RSSafariAddressBar.m */,
+			);
+			path = RSSafariAddressBar;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0C9F18B17E1B33600632933 /* RSSafariAddressBarSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0C9F1BE17E1B33600632933 /* Build configuration list for PBXNativeTarget "RSSafariAddressBarSample" */;
+			buildPhases = (
+				D0C9F18817E1B33600632933 /* Sources */,
+				D0C9F18917E1B33600632933 /* Frameworks */,
+				D0C9F18A17E1B33600632933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSSafariAddressBarSample;
+			productName = RSSafariAddressBarSample;
+			productReference = D0C9F18C17E1B33600632933 /* RSSafariAddressBarSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0C9F1AC17E1B33600632933 /* RSSafariAddressBarSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0C9F1C117E1B33600632933 /* Build configuration list for PBXNativeTarget "RSSafariAddressBarSampleTests" */;
+			buildPhases = (
+				D0C9F1A917E1B33600632933 /* Sources */,
+				D0C9F1AA17E1B33600632933 /* Frameworks */,
+				D0C9F1AB17E1B33600632933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0C9F1B317E1B33600632933 /* PBXTargetDependency */,
+			);
+			name = RSSafariAddressBarSampleTests;
+			productName = RSSafariAddressBarSampleTests;
+			productReference = D0C9F1AD17E1B33600632933 /* RSSafariAddressBarSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0C9F18417E1B33600632933 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = P.D.Q.;
+				TargetAttributes = {
+					D0C9F1AC17E1B33600632933 = {
+						TestTargetID = D0C9F18B17E1B33600632933;
+					};
+				};
+			};
+			buildConfigurationList = D0C9F18717E1B33600632933 /* Build configuration list for PBXProject "RSSafariAddressBarSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0C9F18317E1B33600632933;
+			productRefGroup = D0C9F18D17E1B33600632933 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0C9F18B17E1B33600632933 /* RSSafariAddressBarSample */,
+				D0C9F1AC17E1B33600632933 /* RSSafariAddressBarSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0C9F18A17E1B33600632933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C9F1A817E1B33600632933 /* Images.xcassets in Resources */,
+				D0C9F19A17E1B33600632933 /* InfoPlist.strings in Resources */,
+				D0C9F1A317E1B33600632933 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C9F1AB17E1B33600632933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C9F1B917E1B33600632933 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0C9F18817E1B33600632933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C9F19C17E1B33600632933 /* main.m in Sources */,
+				D0C9F1C917E1B3F800632933 /* RSSafariAddressBar.m in Sources */,
+				D0C9F1A017E1B33600632933 /* RSAppDelegate.m in Sources */,
+				D0C9F1A617E1B33600632933 /* RSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C9F1A917E1B33600632933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C9F1BB17E1B33600632933 /* RSSafariAddressBarSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0C9F1B317E1B33600632933 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0C9F18B17E1B33600632933 /* RSSafariAddressBarSample */;
+			targetProxy = D0C9F1B217E1B33600632933 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0C9F19817E1B33600632933 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0C9F19917E1B33600632933 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D0C9F1A117E1B33600632933 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0C9F1A217E1B33600632933 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0C9F1B717E1B33600632933 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0C9F1B817E1B33600632933 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0C9F1BC17E1B33600632933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0C9F1BD17E1B33600632933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0C9F1BF17E1B33600632933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSSafariAddressBarSample/RSSafariAddressBarSample-Prefix.pch";
+				INFOPLIST_FILE = "RSSafariAddressBarSample/RSSafariAddressBarSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0C9F1C017E1B33600632933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSSafariAddressBarSample/RSSafariAddressBarSample-Prefix.pch";
+				INFOPLIST_FILE = "RSSafariAddressBarSample/RSSafariAddressBarSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D0C9F1C217E1B33600632933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RSSafariAddressBarSample.app/RSSafariAddressBarSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSSafariAddressBarSample/RSSafariAddressBarSample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RSSafariAddressBarSampleTests/RSSafariAddressBarSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D0C9F1C317E1B33600632933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RSSafariAddressBarSample.app/RSSafariAddressBarSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSSafariAddressBarSample/RSSafariAddressBarSample-Prefix.pch";
+				INFOPLIST_FILE = "RSSafariAddressBarSampleTests/RSSafariAddressBarSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0C9F18717E1B33600632933 /* Build configuration list for PBXProject "RSSafariAddressBarSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C9F1BC17E1B33600632933 /* Debug */,
+				D0C9F1BD17E1B33600632933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0C9F1BE17E1B33600632933 /* Build configuration list for PBXNativeTarget "RSSafariAddressBarSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C9F1BF17E1B33600632933 /* Debug */,
+				D0C9F1C017E1B33600632933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0C9F1C117E1B33600632933 /* Build configuration list for PBXNativeTarget "RSSafariAddressBarSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C9F1C217E1B33600632933 /* Debug */,
+				D0C9F1C317E1B33600632933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0C9F18417E1B33600632933 /* Project object */;
+}
