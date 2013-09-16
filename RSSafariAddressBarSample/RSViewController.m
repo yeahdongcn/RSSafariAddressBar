@@ -8,7 +8,7 @@
 
 #import "RSViewController.h"
 
-@interface RSViewController ()
+@interface RSViewController () <UITextFieldDelegate>
 
 @end
 

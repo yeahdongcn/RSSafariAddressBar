@@ -22,6 +22,7 @@
 		D0C9F1B917E1B33600632933 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0C9F1B717E1B33600632933 /* InfoPlist.strings */; };
 		D0C9F1BB17E1B33600632933 /* RSSafariAddressBarSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F1BA17E1B33600632933 /* RSSafariAddressBarSampleTests.m */; };
 		D0C9F1C917E1B3F800632933 /* RSSafariAddressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F1C817E1B3F800632933 /* RSSafariAddressBar.m */; };
+		D0C9F1CC17E2E1A400632933 /* RSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F1CB17E2E1A400632933 /* RSTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		D0C9F1BA17E1B33600632933 /* RSSafariAddressBarSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSSafariAddressBarSampleTests.m; sourceTree = "<group>"; };
 		D0C9F1C717E1B3F800632933 /* RSSafariAddressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSafariAddressBar.h; sourceTree = "<group>"; };
 		D0C9F1C817E1B3F800632933 /* RSSafariAddressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSafariAddressBar.m; sourceTree = "<group>"; };
+		D0C9F1CA17E2E1A400632933 /* RSTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTextField.h; sourceTree = "<group>"; };
+		D0C9F1CB17E2E1A400632933 /* RSTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +164,8 @@
 			children = (
 				D0C9F1C717E1B3F800632933 /* RSSafariAddressBar.h */,
 				D0C9F1C817E1B3F800632933 /* RSSafariAddressBar.m */,
+				D0C9F1CA17E2E1A400632933 /* RSTextField.h */,
+				D0C9F1CB17E2E1A400632933 /* RSTextField.m */,
 			);
 			path = RSSafariAddressBar;
 			sourceTree = SOURCE_ROOT;
@@ -266,6 +271,7 @@
 				D0C9F19C17E1B33600632933 /* main.m in Sources */,
 				D0C9F1C917E1B3F800632933 /* RSSafariAddressBar.m in Sources */,
 				D0C9F1A017E1B33600632933 /* RSAppDelegate.m in Sources */,
+				D0C9F1CC17E2E1A400632933 /* RSTextField.m in Sources */,
 				D0C9F1A617E1B33600632933 /* RSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

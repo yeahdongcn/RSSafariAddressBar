@@ -8,26 +8,41 @@
 
 #import "RSSafariAddressBar.h"
 
-@interface RSSafariAddressBar ()
+#import "RSTextField.h"
 
-@property (nonatomic, strong) UIButton *menuButton;
+@interface RSSafariAddressBar () <UITextFieldDelegate>
 
-@property (nonatomic, strong) UIButton *titleButton;
-
-@property (nonatomic, strong) UIButton *refreshButton;
+@property (nonatomic, strong) RSTextField *addressField;
 
 @end
 
 @implementation RSSafariAddressBar
+
+- (UITextField *)addressField
+{
+    if (!_addressField) {
+        _addressField = [[RSTextField alloc] init];
+        _addressField.borderStyle = UITextBorderStyleNone;
+        _addressField.backgroundColor = [UIColor lightGrayColor];
+        _addressField.layer.cornerRadius = 5.0f;
+        _addressField.placeholder = @"Place holder";
+        _addressField.textAlignment = NSTextAlignmentLeft;
+        _addressField.clearButtonMode = UITextFieldViewModeWhileEditing;
+        _addressField.autocapitalizationType = UITextAutocapitalizationTypeNone;
+        _addressField.autocorrectionType = UITextAutocorrectionTypeNo;
+        _addressField.spellCheckingType = UITextSpellCheckingTypeNo;
+    }
+    return _addressField;
+}
 
 - (id)initWithCoder:(NSCoder *)aDecoder
 {
     self = [super initWithCoder:aDecoder];
     if (self) {
         // Initialization code
-        self.titleButton.frame = CGRectMake(5.0f, 5.0f, self.bounds.size.width - 5.0f * 2, self.bounds.size.height - 5.0f * 2);
-        self.titleButton.autoresizingMask = UIViewAutoresizingFlexibleWidth;
-        [self addSubview:self.titleButton];
+        self.addressField.frame = CGRectMake(5.0f, 5.0f, self.bounds.size.width - 5.0f * 2, self.bounds.size.height - 5.0f * 2);
+        self.addressField.autoresizingMask = UIViewAutoresizingFlexibleWidth;
+        [self addSubview:self.addressField];
     }
     return self;
 }
@@ -37,39 +52,11 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
-        self.titleButton.frame = CGRectMake(5.0f, 5.0f, frame.size.width - 5.0f * 2, frame.size.height - 5.0f * 2);
-        self.titleButton.autoresizingMask = UIViewAutoresizingFlexibleWidth;
-        [self addSubview:self.titleButton];
+        self.addressField.frame = CGRectMake(5.0f, 5.0f, frame.size.width - 5.0f * 2, frame.size.height - 5.0f * 2);
+        self.addressField.autoresizingMask = UIViewAutoresizingFlexibleWidth;
+        [self addSubview:self.addressField];
     }
     return self;
-}
-
-- (UIButton *)titleButton
-{
-    if (!_titleButton) {
-        _titleButton = [UIButton buttonWithType:UIButtonTypeSystem];
-        _titleButton.layer.cornerRadius = 5.0f;
-        _titleButton.backgroundColor = [UIColor lightGrayColor];
-        _titleButton.titleLabel.textAlignment = NSTextAlignmentCenter;
-        _titleButton.titleLabel.font = [UIFont systemFontOfSize:15];
-    }
-    return _titleButton;
-}
-
-- (UIButton *)menuButton
-{
-    if (!_menuButton) {
-        _menuButton = [UIButton buttonWithType:UIButtonTypeSystem];
-    }
-    return _menuButton;
-}
-
-- (UIButton *)refreshButton
-{
-    if (!_refreshButton) {
-        _refreshButton = [UIButton buttonWithType:UIButtonTypeSystem];
-    }
-    return _refreshButton;
 }
 
 @end
